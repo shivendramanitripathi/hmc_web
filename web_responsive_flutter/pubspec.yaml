@@ -1,0 +1,90 @@
+name: web_responsive_flutter
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1
+  fl_chart: ^0.68.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.3.2
+  provider: ^6.1.2
+  flutter_localizations:
+    sdk: flutter
+  intl:
+  flutter_localized_locales: ^2.0.5
+  logger: ^2.4.0
+  go_router: ^14.2.7
+  flutter_secure_storage: ^4.2.1
+  get_it: ^7.7.0
+  flutter_dotenv: ^5.1.0
+  lottie: ^3.1.2
+  flutter_bloc: ^8.1.6
+  excel: ^4.0.6
+  cached_network_image: ^3.4.1
+  flutter_file_dialog: ^3.0.2
+  image: ^4.2.0
+  pdf: ^3.11.1
+  geolocator: ^13.0.1
+  url_launcher: ^6.3.0
+  platform_info: ^5.0.0
+  platform: ^3.1.5
+  printing: ^5.11.0
+  sms_autofill: ^2.4.0
+  flutter_downloader: ^1.11.8
+  permission_handler: ^11.3.1
+  firebase_analytics: ^10.8.0
+  firebase_crashlytics: ^3.4.9
+  google_fonts: ^6.2.1
+  syncfusion_flutter_charts: ^20.4.50
+  carousel_slider: ^5.0.0
+  motion_tab_bar: ^2.0.4
+  qr_flutter: ^4.1.0
+  encrypt: ^5.0.3
+  barcode_widget: ^2.0.4
+  catcher: ^0.8.0
+  path_provider: ^2.1.4
+  file_picker: ^8.1.2
+  equatable: ^2.0.5
+  http: ^1.2.2
+  shimmer: ^3.0.0
+  agora_chat_sdk: ^1.2.0
+  firebase_core: ^2.16.0
+  flutter_expandable_table: ^2.1.0
+  google_maps_flutter: ^2.9.0
+  google_maps: ^8.0.0
+  google_maps_flutter_web: ^0.5.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  hive_generator: ^2.0.0
+  build_runner: ^2.3.3
+
+dependency_overrides:
+  geolocator_windows: any
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    - lib/l10n/
+
+  fonts:
+    - family: Gotham-Bold
+      fonts:
+        - asset: assets/fonts/GothamLight.ttf
+          weight: 900
